@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftEraSmp - Sklep</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1e1e1e;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #ff5555;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .card {
+            background: #2e2e2e;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 0 10px #000;
+            text-align: center;
+        }
+        .card h2 {
+            margin-top: 0;
+            color: #ffcc00;
+        }
+        .card ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+        .card li {
+            margin: 5px 0;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #00cc66;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .card a:hover {
+            background: #009944;
+        }
+        /* Kolory elementów w li */
+        .kit { color: #00ff00; }
+        .home { color: #ffcc00; }
+        .ec { color: #00ffff; }
+        .warp { color: #ff00ff; }
+        .tag { color: #ff8800; }
+        .price { color: #ff5555; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CraftEraSmp - Sklep</h1>
+        <p>Wybierz swoją rangę i kup dostęp do dodatkowych funkcji!</p>
+    </header>
+
+    <div class="container">
+
+        <!-- VIP -->
+        <div class="card">
+            <h2>VIP</h2>
+            <ul>
+                <li><span class="kit">Kit:</span> podstawowy</li>
+                <li><span class="home">/home:</span> 1</li>
+                <li><span class="ec">/ec:</span> standard</li>
+                <li><span class="warp">/warp:</span> 2</li>
+                <li><span class="tag">Chat tag:</span> [VIP]</li>
+                <li><span class="price">Cena:</span> 5 zł / miesiąc | 15 zł na zawsze</li>
+            </ul>
+            <a href="TWOJ_LINK_DO_PLATNOSCI_VIP" target="_blank">Kup teraz</a>
+        </div>
+
+        <!-- SVIP -->
+        <div class="card">
+            <h2>SVIP</h2>
+            <ul>
+                <li><span class="kit">Kit:</span> lepszy</li>
+                <li><span class="home">/home:</span> 2</li>
+                <li><span class="ec">/ec:</span> compact</li>
+                <li><span class="warp">/warp:</span> 3</li>
+                <li><span class="tag">Chat tag:</span> [SVIP]</li>
+                <li><span class="price">Cena:</span> 7 zł / miesiąc | 21 zł na zawsze</li>
+            </ul>
+            <a href="TWOJ_LINK_DO_PLATNOSCI_SVIP" target="_blank">Kup teraz</a>
+        </div>
+
+        <!-- Sponsor -->
+        <div class="card">
+            <h2>Sponsor</h2>
+            <ul>
+                <li><span class="kit">Kit:</span> mocny</li>
+                <li><span class="home">/home:</span> 3</li>
+                <li><span class="ec">/ec:</span> compact + większy</li>
+                <li><span class="warp">/warp:</span> 5</li>
+                <li><span class="tag">Chat tag:</span> [SPONSOR]</li>
+                <li><span class="price">Cena:</span> 10 zł / miesiąc | 30 zł na zawsze</li>
+            </ul>
+            <a href="TWOJ_LINK_DO_PLATNOSCI_SPONSOR" target="_blank">Kup teraz</a>
+        </div>
+
+        <!-- ELITA -->
+        <div class="card">
+            <h2>ELITA</h2>
+            <ul>
+                <li><span class="kit">Kit:</span> najlepszy</li>
+                <li><span class="home">/home:</span> 5</li>
+                <li><span class="ec">/ec:</span> full/duży</li>
+                <li><span class="warp">/warp:</span> 7</li>
+                <li><span class="tag">Chat tag:</span> [ELITA]</li>
+                <li><span class="price">Cena:</span> 25 zł / miesiąc | 75 zł na zawsze</li>
+            </ul>
+            <a href="TWOJ_LINK_DO_PLATNOSCI_ELITA" target="_blank">Kup teraz</a>
+        </div>
+
+        <!-- Rangi sezonowe -->
+        <div class="card">
+            <h2>Św. Mikołaj (Sezonowa)</h2>
+            <ul>
+                <li><span class="kit">Kit:</span> świąteczny + bonus</li>
+                <li><span class="home">/home:</span> 3</li>
+                <li><span class="ec">/ec:</span> compact + bonus</li>
+                <li><span class="warp">/warp:</span> 3</li>
+                <li><span class="tag">Chat tag:</span> [MIKOŁAJ]</li>
+                <li><span class="price">Cena:</span> 100 zł na zawsze</li>
+            </ul>
+            <a href="TWOJ_LINK_DO_PLATNOSCI_MIKOLAJ" target="_blank">Kup teraz</a>
+        </div>
+
+        <div class="card">
+            <h2>Elf (Sezonowa)</h2>
+            <ul>
+                <li><span class="kit">Kit:</span> elfi + kosmetyka</li>
+                <li><span class="home">/home:</span> 4</li>
+                <li><span class="ec">/ec:</span> duży + bonus</li>
+                <li><span class="warp">/warp:</span> 4</li>
+                <li><span class="tag">Chat tag:</span> [ELF]</li>
+                <li><span class="price">Cena:</span> 100 zł na zawsze</li>
+            </ul>
+            <a href="TWOJ_LINK_DO_PLATNOSCI_ELF" target="_blank">Kup teraz</a>
+        </div>
+
+    </div>
+</body>
+</html>
